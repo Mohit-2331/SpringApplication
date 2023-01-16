@@ -1,0 +1,12 @@
+{
+"data":
+{
+  "group" : "hello",
+  "artifact" : "hello",
+  "name" : "hello",
+  "description" : "hello",
+  "packageName" : "hello",
+  "dependencies" : "JDBC"
+}
+  
+}

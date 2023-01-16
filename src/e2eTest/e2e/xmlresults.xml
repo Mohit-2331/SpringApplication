@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="2" tests="93" time="102.448">
+ <testsuite name="Sing Up" timestamp="2022-10-21T15:27:28" hostname="localhost" time="3.696" errors="0" tests="6" skipped="0" disabled="0" failures="1">
+  <testcase classname="Sing Up" name="Navigate to" time="2.747" />
+  <testcase classname="Sing Up" name="Enter username" time="0.287" />
+  <testcase classname="Sing Up" name="Enter password" time="0.194" />
+  <testcase classname="Sing Up" name="click eye button" time="0.156" />
+  <testcase classname="Sing Up" name="Verify Innovation Stop" time="0.134">
+   <failure type="exception" message="Failed: Cannot read property &apos;waitForClickable&apos; of undefined"><![CDATA[TypeError: Cannot read property 'waitForClickable' of undefined
+    at C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\e2e\src\eventCreation\login.ts:40:14
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\built\element.js:804:32
+    at ManagedPromise.invokeCallback_ (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: Run it("Verify Innovation Stop") in control flow
+    at UserContext.<anonymous> (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\e2e\src\eventCreation\app.e2e-signup.ts:31:5)
+    at addSpecsToSuite (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\e2e\src\eventCreation\app.e2e-signup.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Sing Up" name="Click to Login" time="0.176" />
+ </testsuite>
+ <testsuite name="Event Creation" timestamp="2022-10-21T15:27:31" hostname="localhost" time="5.429" errors="0" tests="13" skipped="0" disabled="0" failures="1">
+  <testcase classname="Event Creation" name="Verify Event Button" time="0.78" />
+  <testcase classname="Event Creation" name="Click on Event Button" time="1.223" />
+  <testcase classname="Event Creation" name="Enter Event Name" time="0.421" />
+  <testcase classname="Event Creation" name="Enter Event Name" time="0.217" />
+  <testcase classname="Event Creation" name="Enter Max Participants" time="0.326" />
+  <testcase classname="Event Creation" name="Enter start Date" time="0.218" />
+  <testcase classname="Event Creation" name="Enter end Date" time="0.2" />
+  <testcase classname="Event Creation" name="Enter Event Lead" time="0.241" />
+  <testcase classname="Event Creation" name="banner upload" time="0.123">
+   <failure type="exception" message="Failed: this.byXpath(...).then is not a function"><![CDATA[TypeError: this.byXpath(...).then is not a function
+    at CreateEventPage.BannerUpload (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\e2e\src\eventCreation\BasicDetails.ts:123:41)
+    at UserContext.<anonymous> (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\e2e\src\eventCreation\app.e2e-BasicDetails.ts:105:17)
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+From: Task: Run it("banner upload") in control flow
+    at UserContext.<anonymous> (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\e2e\src\eventCreation\app.e2e-BasicDetails.ts:103:5)
+    at addSpecsToSuite (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\703337591\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\e2e\src\eventCreation\app.e2e-BasicDetails.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\703337591\Desktop\ApplicationDemo\e2eTest\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Event Creation" name="Enter Event Description" time="0.513" />
+  <testcase classname="Event Creation" name="Enter Event Summary" time="0.457" />
+  <testcase classname="Event Creation" name="Enter Event Artifact" time="0.513" />
+  <testcase classname="Event Creation" name="Go to next page" time="0.195" />
+ </testsuite>
+ <testsuite name="Theme for event" timestamp="2022-10-21T15:27:37" hostname="localhost" time="2.795" errors="0" tests="7" skipped="0" disabled="0" failures="0">
+  <testcase classname="Theme for event" name="Enter Theme Name" time="0.421" />
+  <testcase classname="Theme for event" name="Category name" time="0.404" />
+  <testcase classname="Theme for event" name="Enter Subcategory  Name" time="0.284" />
+  <testcase classname="Theme for event" name="Enter subcategory Description" time="0.417" />
+  <testcase classname="Theme for event" name="Add subcategory" time="0.594" />
+  <testcase classname="Theme for event" name="Criteria1" time="0.478" />
+  <testcase classname="Theme for event" name="Go to next page" time="0.193" />
+ </testsuite>
+ <testsuite name="Jury for the Event" timestamp="2022-10-21T15:27:40" hostname="localhost" time="7.812" errors="0" tests="7" skipped="0" disabled="0" failures="0">
+  <testcase classname="Jury for the Event" name="Select the jury" time="2.397" />
+  <testcase classname="Jury for the Event" name="edit stage 1 date and cutoff" time="0.237" />
+  <testcase classname="Jury for the Event" name="edit stage 2 jury" time="2.262" />
+  <testcase classname="Jury for the Event" name="edit stage 2 end date and cutoff" time="0.259" />
+  <testcase classname="Jury for the Event" name="edit stage 3 jury" time="2.274" />
+  <testcase classname="Jury for the Event" name="edit end date" time="0.247" />
+  <testcase classname="Jury for the Event" name="Go to next page" time="0.135" />
+ </testsuite>
+ <testsuite name="Preview page for event" timestamp="2022-10-21T15:27:48" hostname="localhost" time="0.813" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Preview page for event" name="Submit the event" time="0.811" />
+ </testsuite>
+ <testsuite name="Log Out" timestamp="2022-10-21T15:27:48" hostname="localhost" time="2.427" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Log Out" name="open My Account" time="0.246" />
+  <testcase classname="Log Out" name="Log out" time="2.18" />
+ </testsuite>
+ <testsuite name="Idea Creation" timestamp="2022-10-21T15:27:51" hostname="localhost" time="79.476" errors="0" tests="57" skipped="0" disabled="0" failures="0">
+  <testcase classname="Idea Creation" name="Navigate to" time="0.16" />
+  <testcase classname="Idea Creation" name="Login" time="3.508" />
+  <testcase classname="Idea Creation" name="Select an Event" time="1.973" />
+  <testcase classname="Idea Creation" name="Click on ADD IDEA button" time="1.141" />
+  <testcase classname="Idea Creation" name="Enter Idea Title" time="0.565" />
+  <testcase classname="Idea Creation" name="Select Theme" time="3.213" />
+  <testcase classname="Idea Creation" name="Select Category" time="3.222" />
+  <testcase classname="Idea Creation" name="Select Sub  Category" time="2.207" />
+  <testcase classname="Idea Creation" name="Enter Current Situation" time="0.411" />
+  <testcase classname="Idea Creation" name="Enter Solution Provided" time="1.374" />
+  <testcase classname="Idea Creation" name="Enter Benefits" time="1.299" />
+  <testcase classname="Idea Creation" name="Enter Description" time="1.45" />
+  <testcase classname="Idea Creation" name="Enter Solution Urls" time="0.454" />
+  <testcase classname="Idea Creation" name="document upload" time="0.169" />
+  <testcase classname="Idea Creation" name="Select Submitter" time="0.36" />
+  <testcase classname="Idea Creation" name="Set Privacy" time="0.282" />
+  <testcase classname="Idea Creation" name="Click on submit " time="2.193" />
+  <testcase classname="Idea Creation" name="open My Account" time="0.146" />
+  <testcase classname="Idea Creation" name="Log out" time="2.193" />
+  <testcase classname="Idea Creation" name="Navigate to" time="0.158" />
+  <testcase classname="Idea Creation" name="Login" time="3.534" />
+  <testcase classname="Idea Creation" name="Select an Event" time="1.209" />
+  <testcase classname="Idea Creation" name="Click on ADD IDEA button" time="1.168" />
+  <testcase classname="Idea Creation" name="Enter Idea Title" time="0.338" />
+  <testcase classname="Idea Creation" name="Select Theme" time="3.22" />
+  <testcase classname="Idea Creation" name="Select Category" time="3.191" />
+  <testcase classname="Idea Creation" name="Select Sub  Category" time="2.189" />
+  <testcase classname="Idea Creation" name="Enter Current Situation" time="3.347" />
+  <testcase classname="Idea Creation" name="Enter Solution Provided" time="1.255" />
+  <testcase classname="Idea Creation" name="Enter Benefits" time="1.292" />
+  <testcase classname="Idea Creation" name="Enter Description" time="0.837" />
+  <testcase classname="Idea Creation" name="Enter Solution Urls" time="0.439" />
+  <testcase classname="Idea Creation" name="document upload" time="0.18" />
+  <testcase classname="Idea Creation" name="Select Submitter" time="0.371" />
+  <testcase classname="Idea Creation" name="Set Privacy" time="0.259" />
+  <testcase classname="Idea Creation" name="Click on submit " time="2.218" />
+  <testcase classname="Idea Creation" name="open My Account" time="0.146" />
+  <testcase classname="Idea Creation" name="Log out" time="2.206" />
+  <testcase classname="Idea Creation" name="Navigate to" time="0.161" />
+  <testcase classname="Idea Creation" name="Login" time="3.523" />
+  <testcase classname="Idea Creation" name="Select an Event" time="1.22" />
+  <testcase classname="Idea Creation" name="Click on ADD IDEA button" time="1.176" />
+  <testcase classname="Idea Creation" name="Enter Idea Title" time="0.411" />
+  <testcase classname="Idea Creation" name="Select Theme" time="3.231" />
+  <testcase classname="Idea Creation" name="Select Category" time="3.307" />
+  <testcase classname="Idea Creation" name="Select Sub  Category" time="2.182" />
+  <testcase classname="Idea Creation" name="Enter Current Situation" time="2.185" />
+  <testcase classname="Idea Creation" name="Enter Solution Provided" time="0.766" />
+  <testcase classname="Idea Creation" name="Enter Benefits" time="0.808" />
+  <testcase classname="Idea Creation" name="Enter Description" time="0.802" />
+  <testcase classname="Idea Creation" name="Enter Solution Urls" time="0.459" />
+  <testcase classname="Idea Creation" name="document upload" time="0.194" />
+  <testcase classname="Idea Creation" name="Select Submitter" time="0.376" />
+  <testcase classname="Idea Creation" name="Set Privacy" time="0.275" />
+  <testcase classname="Idea Creation" name="Click on submit " time="2.184" />
+  <testcase classname="Idea Creation" name="open My Account" time="0.149" />
+  <testcase classname="Idea Creation" name="Log out" time="2.184" />
+ </testsuite>
+</testsuites>

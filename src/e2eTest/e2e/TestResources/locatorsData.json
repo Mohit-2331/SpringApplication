@@ -1,0 +1,15 @@
+{
+  "Project" :
+  {
+    "project" : "(//*[@class='radio '])[2]",
+    "group" : "//*[@id='input-group']",
+    "artifact" : "//*[@id='input-artifact']",
+    "name" : "//*[@id='input-name']",
+    "desc" : "//*[@id='input-description']",
+    "packName" : "//*[@id='input-packageName']",
+    "addDependencies" : "//*[@id = 'explore-dependencies']",
+    "search" : "//*[@id = 'input-quicksearch']",
+    "generate" : "//*[@id = 'generate-project']"
+
+  }
+}
